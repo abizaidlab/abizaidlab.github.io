@@ -1,5 +1,3 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
-
 $onyx: #2b2c30;
 
 /* SCSS HEX */
@@ -24,6 +22,12 @@ $sandy-brown: rgba(244, 162, 97, 1);
 $burnt-sienna: rgba(231, 111, 81, 1);
 
 $light-text-color:#F0F0F0;
+
+$modal-content-color: $light-text-color;
+$modal-content-bg: $onyx;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 body {
   background-color: $onyx;
@@ -59,29 +63,13 @@ a {
 }
 
 #header:target {
-
   h1 > a {
     color: black;
     background-color:$sandy-brown;
   }
 }
 
-#contact:target {
-  color: black;
-  background-color:$sandy-brown;
-}
-
-#people:target {
-  color: black;
-  background-color:$sandy-brown;
-}
-
-#profile:target {
-  color: black;
-  background-color:$sandy-brown;
-}
-
-#background:target {
+h1:target, h2:target, h3:target {
   color: black;
   background-color:$sandy-brown;
 }
