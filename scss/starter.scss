@@ -1,8 +1,9 @@
+
 $onyx: #2b2c30;
 
 /* SCSS HEX */
 $charcoal: #264653ff;
-$persian-green:#2a9d8fff;
+$persian-green: #2a9d8fff;
 $maize-crayola: #e9c46aff;
 $sandy-brown: #f4a261ff;
 $burnt-sienna: #e76f51ff;
@@ -21,29 +22,37 @@ $maize-crayola: rgba(233, 196, 106, 1);
 $sandy-brown: rgba(244, 162, 97, 1);
 $burnt-sienna: rgba(231, 111, 81, 1);
 
-$light-text-color:#F0F0F0;
+$light-text-color: #f0f0f0;
+$body-color: $onyx;
+$accordion-color: $light-text-color;
+$accordion-bg: $onyx;
 
-$modal-content-color: $light-text-color;
-$modal-content-bg: $onyx;
+$accordion-button-color: $accordion-color;
+$accordion-button-bg: $accordion-bg;
+$accordion-border-color: rgba($light-text-color, .125);
+$accordion-button-color: $accordion-color;
+$accordion-button-bg: $accordion-bg;
+$accordion-button-active-bg: tint-color($sandy-brown, 90%);
+$accordion-button-active-color: shade-color($sandy-brown, 10%);
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
 body {
-  background-color: $onyx;
   color: $light-text-color;
+  background-color: $onyx;
 }
 
 a {
-  // color: $persian-green;
-  color: sandybrown;
+  color: $sandy-brown;
+  cursor: pointer;
+  transition: 0.25s linear;
   &:focus {
     color: $sandy-brown;
   } 
 
   &:hover {
     color: $sandy-brown;
-    filter:brightness(1.2);
+    filter: brightness(1.2);
   }
 }
 
@@ -52,24 +61,51 @@ a {
 
   &:hover {
     color: $persian-green;
-    filter:brightness(1.2);
+    filter: brightness(1.1);
+
+  }
+}
+
+a.no-highlight {
+  filter: none;
+  text-decoration: none;
+}
+
+
+div.highlight-on-hover {
+  transition: 0.1s linear;
+  border: 2px solid rgba(0,0,0,0);
+  &:hover {
+    border: 2px solid $sandy-brown;
   }
 }
 
 .card {
   background-color: #6B6B6B;
   color: $light-text-color;
-  transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: .5s cubic-bezier(.075, .82, .165, 1);
+
+  img {
+    // max-height: 200px;
+    transition: .5s linear;
+    filter: brightness(0.9);
+  }
 }
 
 #header:target {
   h1 > a {
     color: black;
-    background-color:$sandy-brown;
+    background-color: $sandy-brown;
   }
 }
 
-h1:target, h2:target, h3:target {
+h1:target,h2:target,h3:target,h4:target {
   color: black;
-  background-color:$sandy-brown;
+  background-color: $sandy-brown;
+}
+
+.modal-content {
+  // color: black;
+  color: $light-text-color;
+  background-color: #6B6B6B;;
 }
