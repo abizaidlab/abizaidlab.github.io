@@ -111,7 +111,12 @@ h1:target,h2:target,h3:target,h4:target {
 }
 
 .card-img-top {
-  height: 200px;
+  height: 300px;
   width: 100%;
+  object-fit: cover;
+}
+
+#banner {
+  height: 20vh;
   object-fit: cover;
 }
