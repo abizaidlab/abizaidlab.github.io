@@ -109,3 +109,9 @@ h1:target,h2:target,h3:target,h4:target {
   color: $light-text-color;
   background-color: #6B6B6B;;
 }
+
+.card-img-top {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}

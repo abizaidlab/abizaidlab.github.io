@@ -30,10 +30,10 @@
             <a class="nav-link" href="#labmembers">{ Lab Members }</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#abouttheabizaidlab">{ About the Abizaid Lab }</a>
+            <a class="nav-link" href="#publications">{ Publications }</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#publications">{ Publications }</a>
+            <a class="nav-link" href="#abouttheabizaidlab">{ About the Abizaid Lab }</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#contactus">{ Contact Us }</a>
@@ -42,6 +42,33 @@
       </div>
     </div>
   </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1" ></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2" ></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="VTA.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Rat.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="Rat2.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 
   <div class="col-md-8 py-5 px-3 mx-auto">
     <header class="pb-3 mb-5 border-bottom" id="header">
@@ -73,15 +100,10 @@
     <div class="row" data-masonry='{"percentPosition": true }'>
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
-          <div class="card-body">
+            <image class="card-img-top" src="VTA.png"/>
+            <div class="card-body">
             <h5 class="card-title">How metabolic hormones like ghrelin influence reward-seeking behaviours via actions
-              on the mesolimbic reward system</h5>
+              on the brain systems related to reward and fear</h5>
             <p class="card-text"></p>
           </div>
         </div>
@@ -89,15 +111,9 @@
 
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
+          <image class="card-img-top" src="Rat1.png" />
           <div class="card-body">
-            <h5 class="card-title">How prenatal exposure to endocrine disrupters influences the brain systems implicated
-              in the regulation of feeding and energy balance</h5>
+            <h5 class="card-title">How prenatal factors like diet, environmental pollutants, or gestational diabetes influence the development of brain systems implicated in the regulation of feeding and energy balance in offspring</h5>
             <p class="card-text"></p>
           </div>
         </div>
@@ -105,14 +121,9 @@
 
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-            role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <title>Placeholder</title>
-            <rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image
-              cap</text>
-          </svg>
+          <image class="card-img-top" src="Rat2.png"/>
           <div class="card-body">
-            <h5 class="card-title">How the hormone ghrelin influences feeding as a coping mechanism to reduce the
+            <h5 class="card-title">How the hormone ghrelin influences feeding as a coping mechanism to mitigate the
               effects of chronic social stress</h5>
             <p class="card-text"></p>
           </div>
@@ -128,16 +139,12 @@
     <!-- Modal -->
 
     <h2 id="labmembers">LAB MEMBERS</h2>
-    <div class="row" data-masonry='{"percentPosition": true }'>
+    <div class="row card-group d-flex">
 
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#AlfieModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Alfonso Abizaid Bucio</title>
-              <image class="card-img-top" href="alfie-mouse.png" height="200" width="400" />
-            </svg>
+            <img class="card-img-top" src="alfie-mouse.png"/>
 
             <div class="card-body">
               <h5 class="card-title">Dr. Alfonso Abizaid Bucio</h5>
@@ -153,7 +160,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="AlfonsoAbizaidBucioModalLabel">Dr. Alfonso Abizaid Bucio</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Professor, Carleton University</li>
@@ -166,12 +173,12 @@
                 <br>
                 Research Interest/Focus<br>
                 <br>
-                The Abizaid Lab is interested in the brain processes that integrate information from the environment to
+                I am interested in the brain processes that integrate information from the environment to
                 regulate feeding and energy balance.<br>
                 <br>
                 Outside of the Lab<br>
                 <br>
-                Soccer Aficionado<br>
+                When I am not in the lab you will find me spending time with my wife and kids, exploring nature with my dog, playing soccer, and enjoying my involvement in the Society for Neuroscience - Ottawa Chapter. <br>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -184,16 +191,11 @@
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#barbaraModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Barbara.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Dr. Barbara Woodside</h5>
-              <p class="card-text">Adjunct Professor</p>
-            </div>
+              <img class="card-img-top" src="Barbara.jpg" style="object-position: 50% 0%;"/>
+              <div class="card-body">
+                <h5 class="card-title">Dr. Barbara Woodside</h5>
+                <p class="card-text">Adjunct Professor</p>
+              </div>
           </div>
         </a>
 
@@ -204,7 +206,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="barbaraWoodsideModalLabel">Dr. Barbara Woodside</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 Adjunct Professor<br>
                 <br>
@@ -222,13 +224,8 @@
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#MarinaModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Marina.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
+            <image class="card-img-top" src="Marina.jpg" style="object-position: 50% 20%;"/>
+              <div class="card-body">
               <h5 class="card-title">Dr. Marina Galleazzo Martins</h5>
               <p class="card-text">Postdoctoral Fellow</p>
             </div>
@@ -242,7 +239,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="MarinaGalleazzoMartinsModalLabel">Dr. Marina Galleazzo Martins</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Postdoctoral fellow, Carleton Univerity (2022 to Present)</li>
@@ -254,9 +251,17 @@
                 <br>
                 Research Interest/Focus<br>
                 <br>
-                I’m currently interested in ghrelin’s role in the physiological and metabolic effects of stress in male
-                and female mice. In addition, I’m also curious about how maternal metabolic impairments lead to
+                I am currently interested in ghrelin’s role in the physiological and metabolic effects of stress in male
+                and female mice. In addition, I am also curious about how maternal metabolic impairments lead to
                 offspring vulnerability to obesity later in life. <br>
+                <br>
+                Publications<br>
+                <br>
+                da Silva, G. V., Martins, M. G., de Oliveira, G. P., Cruz, A. G., Rodrigues, L. P., Woodside, B. C., & Kiss, A. C. I. (2021). Effects of maternal hyperglycemia associated with snack intake on male and female offspring high-fat diet preference on infancy. Metabolism, 116(Supplement), eArticle 154635. https://doi.org/10.1016/j.metabol.2020.154635<br>
+                <br>
+                Martins, M. G., Cruz, A. G. da, de Oliveira, G. P., Woodside, B., Horta-Júnior, J. de A. de C. e, & Kiss, A. C. I. (2021). Effects of snack intake during pregnancy and lactation on reproductive outcome in mild hyperglycemic rats. Physiology & Behavior, 240, eArticle 113544. https://doi.org/10.1016/j.physbeh.2021.113544<br>
+                <br>
+                Martins, M. G., Woodside, B., & Kiss, A. C. I. (2021). Effects of maternal hyperglycemia associated with snack intake on milk ejection and offspring development. Metabolism, 116(Supplement), eArticle 154634. https://doi.org/10.1016/j.metabol.2020.154634<br>
                 <br>
                 Outside of the Lab<br>
                 <br>
@@ -275,11 +280,7 @@
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#AndreaModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
+              <img class="card-img-top" src="Andrea.jpg"/>
 
             <div class="card-body">
               <h5 class="card-title">Andrea Smith</h5>
@@ -295,7 +296,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="AndreaSmithModalLabel">Andrea Smith</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Graduate Student</li>
@@ -305,8 +306,8 @@
                 <br>
                 Research Interest/Focus<br>
                 <br>
-                My PhD focuses n the role of the ghrelin receptor, the GHSR, in the reward system and it’s role in
-                regulating stress-induced feeding. I’m particularly interested in the metabolic effects of chronic
+                My PhD focuses on the role of the ghrelin receptor, the GHSR, in the reward system and its role in
+                regulating stress-induced feeding. I am particularly interested in the metabolic effects of chronic
                 stress and how stress exposure impacts ingestive behaviors. <br>
                 <br>
                 Outside of the Lab<br>
@@ -322,67 +323,14 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#AndreModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Andre.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Andre Telfer</h5>
-              <p class="card-text">MSc Student, Neuroscience</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="AndreModal" tabindex="-1" aria-labelledby="AndreTelferModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="AndreTelferModalLabel">Andre Telfer</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                <ul>
-                  <li>Graduate Student</li>
-                  <li>Bachelor of Computer Science, Carleton University (2020)</li>
-                  <li>Contact: andretelfer@cmail.carleton.ca OR a-telfer.github.io</li>
-                </ul>
-                <br>
-                Research Interest/Focus<br>
-                <br>
-                My interests are in deep learning and computer vision applications as they apply to animal behaviour and
-                microscopy. <br>
-                <br>
-                Outside of the Lab<br>
-                <br>
-                When I am not in the lab, I am collecting pretty plots so that one day I can make a science-y art
-                gallery.<br>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#BrennaModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Brenna.jpeg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="Brenna.jpeg"/>
             <div class="card-body">
               <h5 class="card-title">Brenna MacAulay</h5>
-              <p class="card-text">MSc Student, Neuroscience</p>
+              <p class="card-text">PhD Student, Neuroscience</p>
             </div>
           </div>
         </a>
@@ -394,7 +342,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="BrennaMacAulayModalLabel">Brenna MacAulay</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Graduate Student</li>
@@ -424,15 +372,54 @@
       </div>
 
       <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#AndreModal">
+          <div class="card">
+            <image class="card-img-top" src="Andre.jpg"/>
+            <div class="card-body">
+              <h5 class="card-title">Andre Telfer</h5>
+              <p class="card-text">MSc Student, Neuroscience</p>
+            </div>
+          </div>
+        </a>
+
+        <div class="modal fade" id="AndreModal" tabindex="-1" aria-labelledby="AndreTelferModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="AndreTelferModalLabel">Andre Telfer</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <ul>
+                  <li>Graduate Student</li>
+                  <li>Bachelor of Computer Science, Carleton University (2020)</li>
+                  <li>Contact: andretelfer@cmail.carleton.ca OR a-telfer.github.io</li>
+                </ul>
+                <br>
+                Research Interest/Focus<br>
+                <br>
+                My interests are in deep learning and computer vision applications as they apply to animal behaviour and
+                microscopy. <br>
+                <br>
+                Outside of the Lab<br>
+                <br>
+                When I am not in the lab, I am collecting pretty plots so that one day I can make a science-y art
+                gallery.<br>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#KiaraModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Kiara.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
+            <image class="card-img-top" src="Kiara.jpg" style="object-position: 50% 30%;"/>
+            <div class="card-body"
               <h5 class="card-title">Kiara Ayoub</h5>
               <p class="card-text">MSc Student, Neuroscience</p>
             </div>
@@ -445,7 +432,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="KiaraAyoubModalLabel">Kiara Ayoub</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Graduate Student</li>
@@ -477,12 +464,7 @@
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#AditiModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="Aditi.jpg" style="object-position: 50% 20%;"/>
             <div class="card-body">
               <h5 class="card-title">Aditi Sankhe</h5>
               <p class="card-text">MSc Student, Neuroscience</p>
@@ -497,44 +479,22 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="AditiSankheModalLabel">Aditi Sankhe</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                Insert biography information here.
               </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#BethanyModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Bethany Watts</h5>
-              <p class="card-text">MSc Student, Neuroscience</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="BethanyModal" tabindex="-1" aria-labelledby="BethanyWattsModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="BethanyWattsModalLabel">Bethany Watts</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
               <div class="modal-body">
-                Insert biography information here.
+                <ul>
+                  <li>Graduate Student</li>
+                  <li>BSc, Neuroscience and Mental Health with a Minor in Biology, Carleton University
+                    (2020)</li>
+                  <li>Contact: aditisankhe@cmail.carleton.ca</li>
+                </ul>
+                <br>
+                Research Interest/Focus<br>
+                <br>
+                My research focus is currently on the NPY/AgRP neurons of the arcuate nucleus and how dietary sugars, such as fructose, impact mouse physiology and the functionality of these neurons.  The projects I work on tend to focus on assessing measurements of physiology (i.e. body weight gain, food intake, fat content), looking at the electrical properties of cells through electrophysiology and some behavioural paradigms (such as diet choice tests OR test assessing anxiety).<br>
+                <br>
+                Outside of the Lab<br>
+                <br>
+                During my spare time, I tend to read lots of fantasy books (e.g. Witcher series), play videos games (mostly indie, RPGs or action games), and play Dungeons and Dragons with my friends. My other hobby is growing lots of plants and succulents!  My favorite foods include anything mango, or mango-flavoured, and shrimp tacos.<br>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -547,12 +507,7 @@
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#ZacharyModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Zachary.jpg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="Zachary.jpg"/>
             <div class="card-body">
               <h5 class="card-title">Zachary Silver</h5>
               <p class="card-text">MSc Student, Neuroscience</p>
@@ -567,7 +522,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="ZacharySilverModalLabel">Zachary Silver</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Graduate Student</li>
@@ -585,6 +540,24 @@
                 developing metabolic disorders in adulthood, such as obesity, heart disease, and especially type 2
                 diabetes. <br>
                 <br>
+                Publications<br>
+                <br>
+                Deng, J., Zhou, F., Heybati, K., Zuo, Q. K., Ali, S., Hou, W., Wong, C. Y., Ba Ramaraju, H.,  Chang, O., Dhivagaran, T., & Silver, Z. (2022). Efficacy and safety of corticosteroid regimens for the treatment of hospitalized COVID-19 patients: a meta-analysis. Future Virology, 17(7), 463-489.<br>
+                <br>
+                Deng, J., Zhou, F., Hou, W., Heybati, K., Ali, S., Chang, O., Silver, Z., Dhivagaran, T., Ba Ramaraju, H., Wong, C. Y., Kang Zuo, Q., Lapshina, E., & Mellet, M. (2022). Efficacy of lopinavir–ritonavir combination therapy for the treatment of hospitalized COVID-19 patients: a meta-analysis. Future Virology, 17(3).<br>
+                <br>
+                Silver, Z., Abbott-Tate, S., Hyland, L., Sherratt, F., Woodside, B., & Abizaid, A. (2021). Ghrelin receptor signaling is not required for glucocorticoid-induced obesity in female mice.  Journal of Endocrinology, 250(2), 37-48.<br>
+                <br>
+                Deng, J., Zhou, F., Hou, W., Silver, Z., Yi Wong, C., Chang, O., Drakos, A., Kang Zuo, Q., & Huang, E. (2021). The prevalence of depressive symptoms, anxiety symptoms and sleep disturbance in higher education students during the COVID-19 pandemic: A systematic review and meta-analysis. Psychiatry Research, 301, eArticle 113863. https://doi.org/10.1016/j.psychres.2021.113863<br>
+                <br>
+                Deng, J., Zhou, F., Heybati, K., Ali, S., Zuo, Q. K., Hou, W., Dhivagaran, T., Ba Ramaraju, H., Chang, O., Wong, C. Y., & Silver, Z. (2021). Efficacy of chloroquine and hydroxychloroquine for the treatment of hospitalized COVID-19 patients: a meta-analysis. Future Virology, 17(2).<br>
+                <br>
+                Deng, J., Silver, Z., Huang, E., Zheng, E., Kavanagh, K., Wen, A., Cheng, W., Dobransky, J., Sanger, S., & Grammatopoulos, G. (2020). Pharmacological prevention of fractures in patients undergoing glucocorticoid therapies: a systematic review and network meta-analysis. Rheumatology, 60(2), 649-657.<br>
+                <br>
+                Deng, J., Zhou, F., Hou, W., Silver, Z., Yi Wong, C., Chang, O., Huang, E., & Kang Zuo, Q. (2020). The prevalence of depression, anxiety, and sleep disturbances in COVID-19 patients: a meta-analysis. Annals of the New York Academy of Sciences, 1486(1), 90-111. https://doi.org/10.1111/nyas.14506<br>
+                <br>
+                Deng, J., Silver, Z., Huang, E., Zheng, E., Kavanagh, K., & Panicker, J. (2020). The effect of calcium and vitamin D compounds on bone mineral density in patients undergoing glucocorticoid therapies: a network meta-analysis. Clinical Rheumatology, 40(2), 725-734. https://doi.org/10.1007/s10067-020-05294-y<br>
+                <br>
                 Outside of the Lab<br>
                 <br>
                 When I am not in the lab I like to run, lift weights, read comic books, watch sports, and spend time
@@ -598,85 +571,11 @@
         </div>
       </div>
 
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#OliviaModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Olivia Gagnon</h5>
-              <p class="card-text">Undergraduate Student, Neuroscience</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="OliviaModal" tabindex="-1" aria-labelledby="OliviaGagnonModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="OliviaGagnonModalLabel">Olivia Gagnon</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                Insert biography information here.
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#AbagaelModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Abagael Hudak</h5>
-              <p class="card-text">Undergraduate Student, Neuroscience</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="AbagaelModal" tabindex="-1" aria-labelledby="AbagaelHudakModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="AbagaelHudakModalLabel">Abagael Hudak</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                Insert biography information here.
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#FrancesModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Frances.jpeg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="Frances.jpeg" style="object-position: 50% 20%;"/>
             <div class="card-body">
               <h5 class="card-title">Frances Sherratt</h5>
               <p class="card-text">MSc Student, Neuroscience</p>
@@ -691,7 +590,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="FrancesSherrattModalLabel">Frances Sherratt</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Graduate Student</li>
@@ -709,14 +608,9 @@
                 <br>
                 Publications<br>
                 <br>
-                Sherratt, F.*, Prowse, R.*, Abizaid, A., Gabrys, R.L., Hellemans, K.G.C., Patterson, Z.R., McQuaid, R.J.
-                (2021). Coping with the COVID-19 pandemic: examining gender differences in stress and mental health
-                among university students. Frontiers of Psychiatry, 12, eArticle 650759.
-                doi:10.3389/fpsyt.2021.650759.<br>
+                Sherratt, F.*, Prowse, R.*, Abizaid, A., Gabrys, R. L., Hellemans, K. G. C., Patterson, Z. R., & McQuaid, R. J. (2021). Coping with the COVID-19 pandemic: examining gender differences in stress and mental health among university students. Frontiers in Psychiatry, 12, eArticle 650759. https://doi:10.3389/fpsyt.2021.650759.<br>
                 <br>
-                Silver, Z., Abbott-Tate, S., Hyland, L., Sherratt, F., Woodside, B., Abizaid, A. (2021). Ghrelin
-                receptor signaling is not required for glucocorticoid-induced obesity in female mice. Journal of
-                Endocrinology, 250, 37-48. doi:10.1530/joe-20-0579.<br>
+                Silver, Z., Abbott-Tate, S., Hyland, L., Sherratt, F., Woodside, B., & Abizaid, A. (2021). Ghrelin receptor signaling is not required for glucocorticoid-induced obesity in female mice. Journal of Endocrinology, 250, 37-48. https://doi:10.1530/joe-20-0579.<br>
                 <br>
                 *These authors have contributed equally to this work and share first authorship<br>
                 <br>
@@ -734,101 +628,11 @@
         </div>
       </div>
 
-
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#TarekModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Tarek Khalaf</h5>
-              <p class="card-text">Undergraduate Student, Health Sciences</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="TarekModal" tabindex="-1" aria-labelledby="TarekKhalafModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="TarekKhalafModalLabel">Tarek Khalaf</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                Insert biography information here.
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#PragatiModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Pragati.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Pragati Parajuli</h5>
-              <p class="card-text">Undergraduate Student, Neuroscience</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="PragatiModal" tabindex="-1" aria-labelledby="PragatiParajuliModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="PragatiParajuliModalLabel">Pragati Parajuli</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                <ul>
-                  <li>Undergraduate Student: Hons. BSc in Neuroscience and Mental Health</li>
-                  <li>Contact: pragatiparajuli@cmail.carleton.ca</li>
-                </ul>
-                <br>
-                Research Interest/Focus<br>
-                <br>
-                I came to the Abizaid Lab on a research internship for the summer of 2022. I am fascinated by the
-                research Dr. Abizaid's lab is conducting on the hormone ghrelin and itd involvement in chronic social
-                stress. I've been learning various lab techniques such as slicing tissues, as well as staining and
-                analyzing them. <br>
-                <br>
-                Outside of the Lab<br>
-                <br>
-                Outside the lab, I am a spoken word poet and I like to spend my time romanticizing words and using them
-                to make art.
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+ 
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#ZitaModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Zita.jpg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="ZitaK.jpg" style="object-position: 50% 60%;"/>
             <div class="card-body">
               <h5 class="card-title">Zita Kolano</h5>
               <p class="card-text">Undergraduate Student, Psychology</p>
@@ -842,7 +646,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="ZitaKolanoModalLabel">Zita Kolano</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Undergraduate Student: Major - Psychology, Minor - Neuroscience and Mental Health</li>
@@ -852,12 +656,11 @@
                 <br>
                 Research Interest/Focus<br>
                 <br>
-                I came to the Abizaid Lab in the summer of 2022 on an NSERC USRA and will be continuing on to work on my
-                Honours thesis. <br>
+                I came to the Abizaid Lab in the summer of 2022 on an NSERC undergraduate student research award and I stayed to work on my undergraduate thesis. My research focuses on the impact of early life stress on neural development.  I am investigating whether periods of maternal separation in mice increases plasma ghrelin levels in the pups, and whether exposure to this type of stress impacts the development of hypothalamic feeding circuits. <br>
                 <br>
                 Outside of the Lab<br>
                 <br>
-                When I am not in the lab, I like to spend time with my husband and three children, sew, knit, read, run,
+                When I am not in the lab, I am spending time with my husband and three children. I also like to sew, knit, read, run,
                 lift weights, and practice yoga.
               </div>
               <div class="modal-footer">
@@ -868,15 +671,11 @@
         </div>
       </div>
 
+
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#BenModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="Ben.jpg" style="object-position: 50% 20%;"/>
             <div class="card-body">
               <h5 class="card-title">Ben Nikkel</h5>
               <p class="card-text">Undergraduate Student, Neuroscience</p>
@@ -890,9 +689,22 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="BenNikkelModalLabel">Ben Nikkel</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
-                Insert biography information here.
+                <li>Undergraduate Student:  Major - Neuroscience and Mental Health, Minor - Statistics</li>
+                <li>BSc, Wildlife Biology, University of Guelph (2010)</li>
+                <li>Contact: bennikkel@cmail.carleton.ca</li>
+                </ul>
+                <br>
+                Research Interest/Focus<br>
+                <br>
+                I am woring on a couple of projects in the Abizaid lab.  The first involves rat video analysis using machine learning. We are teaching a tool how to detect maternal behaviours, as well as to distinguish between the mother and pups. A key interest is seeing if lactation behaviour correlates with ghrelin levels across wildtype and mutated ghrelin-receptor rats. 
+
+                My undergraduate thesis will compare the metabolic activity (weight gain, locomotor activity, O2 consumptions, CO2 emission), circadian plasticity and fear tolerance of food-restricted wild type mice with mice lacking the ghrelin receptor in their AgRP neurons.<br>
+                <br>
+                Outside of the Lab<br>
+                <br>
+                Life outside of the lab includes taking care of my 2 dogs and cat (Pip, Gus, Moose), going for walks/bikerides/runs, making music and cooking pizza. I’m also trying to learn how to hit a golf ball straight.<br>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -902,15 +714,11 @@
         </div>
       </div>
 
+
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#KaitlynModal">
           <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="Kaitlyn.jpeg" height="200" width="400" />
-            </svg>
-
+            <image class="card-img-top" src="Kaitlyn.jpeg" style="object-position: 50% 40%;" />
             <div class="card-body">
               <h5 class="card-title">Kaitlyn Joy</h5>
               <p class="card-text">Undergraduate Student, Neuroscience</p>
@@ -925,7 +733,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="KaitlynJoyModalLabel">Kaitlyn Joy</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 <ul>
                   <li>Undergraduate Student - Neuroscience and Mental Health</li>
@@ -934,8 +742,7 @@
                 <br>
                 Research Interest/Focus<br>
                 <br>
-                I originally came to the Abizaid Lab on a Dean's Summer Research Internship and the Internship -
-                Carleton University Research Experience for Undergraduate Students program. I am currenly working a
+                I originally came to the Abizaid Lab on a Dean's Summer Research Internship and the iCUREUS program. I am currenly working a
                 project that looks at the presence of Ghrelin in the arcuate nucleus and the paraventricular nucleus
                 using a C-Fos stain. <br>
                 <br>
@@ -951,40 +758,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-4 mb-4">
-        <a data-bs-toggle="modal" data-bs-target="#LongfeiModal">
-          <div class="card">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="200" xmlns="http://www.w3.org/2000/svg"
-              role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false">
-              <title>Placeholder</title>
-              <image class="card-img-top" href="minion.jpg" height="200" width="400" />
-            </svg>
-
-            <div class="card-body">
-              <h5 class="card-title">Longfei Wang</h5>
-              <p class="card-text">Research Assistant</p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal fade" id="LongfeiModal" tabindex="-1" aria-labelledby="LongfeiWangModalLabel"
-          aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="LongfeiWangModalLabel">Longfei Wang</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
-              <div class="modal-body">
-                Insert biography information here.
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+   
 
       <div class="col-sm-6 col-lg-4 mb-4">
         <a data-bs-toggle="modal" data-bs-target="#AlumniModal">
@@ -997,7 +771,7 @@
 
             <div class="card-body">
               <h5 class="card-title">Alumni</h5>
-              <p class="card-text">Former Lab Members</p>
+              <p class="card-text">Former Graduate Students</p>
             </div>
           </div>
         </a>
@@ -1008,7 +782,7 @@
               <div class="modal-header">
                 <h5 class="modal-title" id="AlumniModalLabel">Abizaid Lab Alumni</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>,
+              </div>
               <div class="modal-body">
                 Eliza Ali, PhD (2022)<br>
                 Ahmad Alftieh, MSc (2021)<br>
@@ -1038,59 +812,96 @@
           </div>
         </div>
       </div>
+      
 
       <!-- this extra closing div tag is a hack to get the next section to not be all left justified-->
     </div>
 
     <hr class="my-2" />
-
+    <br>
+    <br>
     <div class="row">
-      <h3 id="publications">PUBLICATIONS (WIP)</h3>
+      <h3 id="publications">PUBLICATIONS</h3>
       <hr class="my-2" />
       <div class="accordion accordion-flush" id="accordionFlushExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
               data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              Closed-access Manuscripts
+              Peer-Reviewed Articles
             </button>
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-              TODO
+              For a comprehensive listing of peer-reviewed articles authored by Dr. Alfonso Abizaid Bucio, please visit his Google Scholar profile <a href="https://scholar.google.ca/citations?hl=en&user=0HQ2z6IAAAAJ&view_op=list_works&sortby=pubdate">here</a>.<br>
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="flush-headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-              Book chapters
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+              Closed-Access Manuscripts
             </button>
           </h2>
           <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
             data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
+              Hyland, L., Park, S. -B., Abdelaziz, Y., & Abizaid, A. (2021). <a href="Article12.pdf">Metabolic effects of ghrelin delivery in the hypothalamic ventral premammilary nucleus of male mice</a>. Physiology & Behavior, 228, eArticle 113208. https://doi.org/10.1016/j.physbeh.2020.113208<br>
+              <br>
+              Hyland, L., Park, S. -B., Abdelaziz, Y., & Abizaid, A. (2020). <a href="Article11.pdf">Ghrelin infused into the dorsomedial hypothalamus of male mice increases food intake and adiposity</a>. Physiology & Behavior, 220, eArticle 112882. https://doi.org/10.1016/j.physbeh.2020.112882<br>
+              <br>
+              Abizaid, A. (2019). <a href="Article10.pdf">Stress and obesity: The ghrelin connection</a>. Journal of Neuroendocrinology, 31, eArticle 12693. https://doi.org/10.1111/jne.12693<br>
+              <br>
+              Hyland, L., Rosenbaum, S., Edwards, A., Palacios, D., Graham, M. D., Pfaus, J. G., Woodside, B., & Abizaid, A. (2018). <a href="Article9.pdf">Central ghrelin receptor stimulation modulates sex motivation in male rats in a site dependent manner</a>. Hormones and Behavior, 97, 56-66. https://doi.org/10.1016/j.yhbeh.2017.10.012<br>
+              <br>
+              Edwards, A., & Abizaid, A. (2016). <a href="Article8.pdf">Driving the need to feed: Insight into the collaborative interaction between ghrelin and endocannabinoid systems in modulating brain reward systems</a>. Neuroscience and Behavioral Reviews, 66, 33-53. https://doi.org/10.1016/j.neurbiorev.2016.03.032<br>
+              <br>
+              King, S. J., Rodrigues, T., Watts, A., Murray, E., Wilson, A., & Abizaid, A. (2016). <a href="Article7.pdf">Investigation of a role for ghrelin signalling in binge-like feeding in mice under limited access to high fat diet</a>. Journal of Neuroscience, 319, 233-245. https://doi.org/10.1016/j.neuroscience.2016.01.004<br>
+              <br>
+              MacKay, H., Charbonneau, V. R., St-Onge, V., Murray, E., Watts, A., Wellman, M. K., & Abizaid, A. (2016). <a href="Article6.pdf">Rats with a truncated ghrelin receptor (GHSR) do not respond to ghrelin, and show reduced intake of palatable, high-calorie food</a>. Physiology & Behavior, 163, 88-96. https://doi.org/10.1016/j.physbeh.2016.04.048<br>
+              <br>
+              St-Onge, V., Watts, A., & Abizaid, A. (2016). <a href="Article5.pdf">Ghrelin enhances cue-induced bar pressing for high fat food</a>. Hormones and Behavior, 78, 141-149. https://doi.org/10.1016/j.yhbeh.2015.11.005<br>
+              <br>
+              Wellman, M., & Abizaid, A. (2015). <a href="Article4.pdf">Knockdown of central ghrelin-o-acyltransferase by vivo-morpholino reduces body mass of rats fed a high-fat diet</a>. Peptides, 70, 17-22. https://doi.org/10.1016.j.peptides.2015.05.007<br>
+              <br>
+              Waddington Lamont, E., Bruton, J., Blum, I. D., & Abizaid, A. (2014). <a href="Article3.pdf">Ghrelin receptor-knockout mice display alterations in circadian rhythms of activity and feeding under constant lighting conditions</a>. European Journal of Neuroscience, 39, 207-217. https://doi.org/10.1111/ejn.12390<br>
+              <br>
+              Sotonyi, P, Mezei, G., Racz, B., Dallman, M. F., Abizaid, A., & Horvath, T. L. (2010). <a href="Article2.pdf">Gonadotropin-releasing hormone fibres contact POMC neurons in the hypothalamic arcuate nucleus</a>. Reproductive Sciences, 17(11), 1024-1028. https://doi.org/10.1177/1933719110378346<br>
+              <br>
+              Patterson, Z. R., Ducharme, R., Anisman, H., & Abizaid, A. (2010). <a href="Article1.pdf">Altered metabolic and neurochemical responses to chronic unpredictable stressors in ghrelin receptor-deficient mice</a>. European Journal of Neuroscience, 32, 632-639. https://doi.org/10.1111/j.1460-9568.2010.07310.x<br>
+              <br>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Book chapters
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
               <div class="accordion-body">
                 <ul>
-                  <li>Faulkner, A., Hellemans, K., Abizaid, A. & D’Angiulli, A. (2013) The Neurophysiology of Craving
-                    and Drug-Related Cues: Evidence from Event-Related Potentials. In J.M. Honeycutt (Ed.) The Influence
-                    of Communication in Physiology and Health Status, Peter Lang Publishing, Inc. New York, NY. (In
-                    Press)</li>
-                  <li>Abizaid, A. Luheshi, G, and Woodside B.C. (2013). Interaction between immune and energy balance
-                    signals in the regulation of feeding and metabolism. In Anisman, A., and Kusnicov A (Eds.) Handbook
-                    in Psychoneuroimmunology, Oxford University Press, London, UK.</li>
-                  <li>Abizaid, A. and Amir S. (2010). Feeding and Appetite. Invited contribution for the Encyclopedia of
-                    Psychopharmacology, Ian Stolerman (Ed), Springer Verlag.</li>
-                  <li>Anisman, H., Merali, Z., Matheson, K & Abizaid, A. (2010). Stress, Trauma and Substance
-                    Abuse/Dependence. In Vaccarino, F. (Ed.). Substance Abuse in Canada. Canadian Centre on Substance
-                    Abuse, Ottawa, ON.</li>
-                  <li>Tannebaum, B., Anisman, H., Abizaid, A. (2009).Neuroendocrine Stress Response and Its Impact on
-                    Eating Behaviour and Body Weight. In Dube, L., Bechara, A., Dagher, A., Drewnowski, A., LeBel, J.,
-                    James, P., Richard, D & Yada, R.Y. Role of Society and Brain on Individual Behavior.</li>
-                  <li>Abizaid, A., and HorvathT.L. (2009). Hierarchy of Neural Pathways Controlling Energy Homeostasis.
-                    In Frübeck, G., Ed. Peptides in Energy Balance and Obesity. CABI Publishing.</li>
+                  <li>Faulkner, A., Hellemans, K., Abizaid, A. & D’Angiulli, A. (2013). The neurophysiology of craving
+                    and drug-related cues: Evidence from event-related potentials. In J. M. Honeycutt, C. R. Sawyer, & S. A. Keaton (Eds.) The influence
+                    of communication in physiology and health status (1st ed., pp. 189-206). Peter Lang Publishing, Inc.</li><br>
+                  <li>Abizaid, A., Luheshi, G., & Woodside, B. C. (2013). Interaction between immune and energy balance
+                    signals in the regulation of feeding and metabolism. In Anisman, A., & Kusnicov, A. (Eds.) The Wiley-Blackwell handbook
+                    of psychoneuroimmunology (1st ed., pp. 488-503), Wiley-Blackwell. https://doi.org/10.1002/9781118314814.ch22</li><br>
+                  <li>Abizaid, A. & Amir, S. (2010). Feeding and appetite. In I. P. stolerman (Ed) The Encyclopedia of
+                    Psychopharmacology (1st ed., pp. 447-450). Springer, Berlin, Heidelberg. https://doi.org/10.1007/978-3-540-68706-1_149</li><br>
+                  <li>Anisman, H., Merali, Z., Matheson, K. & Abizaid, A. (2010). Stress, trauma and substance use disorders. In Vaccarino, F. (Ed.) Substance Abuse in Canada (1st ed., pp. 12-19). Canadian Centre on Substance
+                    Abuse.</li><br>
+                  <li>Tannebaum, B., Anisman, H., Abizaid, A. (2009). Neuroendocrine stress response and its impact on
+                    eating behaviour and body weight. In Dube, L., Bechara, A., Dagher, A., Drewnowski, A., LeBel, J.,
+                    James, P., Richard, D. & Yada, R.Y. (Eds.) Role of society and brain on individual behavior.</li><br>
+                  <li>Abizaid, A., and Horvath, T. L. (2009). Hierarchy of neural pathways controlling energy homeostasis.
+                    In Frübeck, G. (Ed.) Peptides in energy balance and obesity. CABI Publishing.</li>
                 </ul>
               </div>
             </div>
@@ -1098,20 +909,11 @@
         </div>
       </div>
     </div>
+    <br>
+    <br>
 
 
-    <div class="row">
-      <div class="col-md-6">
-        <h3 id="publications">PUBLICATIONS</h3>
-        <p>
-          <a href="https://scholar.google.ca/citations?hl=en&user=0HQ2z6IAAAAJ&view_op=list_works&sortby=pubdate">Peer-Reviewed
-            Studies</a><br>
-          <a href="unpublished.html">Unpublished Manuscripts</a><br>
-          <a href="bookchapters.html">Book Chapters</a><br>
-        </p>
-      </div>
-    </div>
-
+ 
   <div class="row">
     <div class="col-md-6">
       <h3 id="abouttheabizaidlab">ABOUT THE ABIZAID LAB</h3>
@@ -1122,7 +924,7 @@
         Our focus is primarily on the hormone ghrelin and its related systems.
       </p>
       <p>
-        The Abizaid Lab at Carleton University is locaded on the traditional unceded territory of the Algonquin
+        The Abizaid Lab at Carleton University is located on the traditional unceded territory of the Algonquin
         Anishnaabeg people. We are grateful for the opportunity to work and study here and we thank the many
         generations
         of people who cared for this land.</p>
