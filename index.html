@@ -21,7 +21,8 @@
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse" id="navbarNav">
+      <!-- fix: add collapse class -->
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#researchfocus">{ Research Focus}</a>
@@ -75,8 +76,9 @@
     <div class="row" data-masonry='{"percentPosition": true }'>
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
-            <image class="card-img-top" src="Mouse (Medium).jpg"/>
-            <div class="card-body">
+          <!-- fix: <image> to <img> -->
+          <img class="card-img-top" src="Mouse (Medium).jpg" alt="Mouse" />
+          <div class="card-body">
             <h5 class="card-title">How metabolic hormones like ghrelin influence reward-seeking behaviours via actions
               on the brain systems related to reward and fear</h5>
             <p class="card-text"></p>
@@ -86,7 +88,8 @@
 
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
-          <image class="card-img-top" src="Family (Medium).jpg" />
+          <!-- fix: <image> to <img> -->
+          <img class="card-img-top" src="Family (Medium).jpg" alt="Family" />
           <div class="card-body">
             <h5 class="card-title">How prenatal factors like diet, environmental pollutants, or gestational diabetes influence the development of brain systems implicated in the regulation of feeding and energy balance in offspring</h5>
             <p class="card-text"></p>
@@ -96,334 +99,336 @@
 
       <div class="col-sm-6 col-lg-4 mb-4">
         <div class="card">
-          <image class="card-img-top" src="Cyberbullying (Medium).jpg"/>
+          <!-- fix: <image> to <img> -->
+          <img class="card-img-top" src="Cyberbullying (Medium).jpg" alt="Cyberbullying" />
           <div class="card-body">
             <h5 class="card-title">How the hormone ghrelin influences feeding as a coping mechanism to mitigate the
               effects of chronic social stress</h5>
             <p class="card-text"></p>
           </div>
         </div>
-
-
       </div>
     </div>
-
-    <!-- Button trigger modal -->
-
 
     <!-- Modal -->
 
     <h2 id="labmembers">LAB MEMBERS</h2>
-<div class="row card-group d-flex">
+    <div class="row card-group d-flex">
 
-  <!-- Principal Investigator -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#AlfonsoModal">
-      <div class="card">
-        <img class="card-img-top" src="Alfonso.jpg" alt="Dr. Alfonso Abizaid" />
-        <div class="card-body">
-          <h5 class="card-title">Dr. Alfonso Abizaid</h5>
-          <p class="card-text">Principal Investigator</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="AlfonsoModal" tabindex="-1" aria-labelledby="AlfonsoLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="AlfonsoLabel">Dr. Alfonso Abizaid</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <ul>
-            <li>Professor, Carleton University</li>
-            <li>Postdoctoral Fellow, Yale University School of Medicine (2002–2006)</li>
-            <li>PhD in Psychology/Behavioural Neuroscience, Concordia University (2002)</li>
-            <li>MA in Psychology, Concordia University (1996)</li>
-            <li>BA in Psychology, Concordia University (1992)</li>
-            <li>Contact: alfonso_abizaid@carleton.ca</li>
-          </ul>
-          <br>Research Interest/Focus<br><br>
-          I am interested in the brain processes that integrate information from the environment to regulate feeding and energy balance.
-          <br><br>Outside of the Lab<br><br>
-          When I am not in the lab, you will find me spending time with my wife and kids, exploring nature with my dog, playing soccer, and enjoying my involvement in the Society for Neuroscience - Ottawa Chapter.
-        </div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- Adjunct Professor -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#BarbaraModal">
-      <div class="card">
-        <img class="card-img-top" src="Barbara.jpg" alt="Dr. Barbara Woodside" />
-        <div class="card-body">
-          <h5 class="card-title">Dr. Barbara Woodside</h5>
-          <p class="card-text">Adjunct Professor</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="BarbaraModal" tabindex="-1" aria-labelledby="BarbaraLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="BarbaraLabel">Dr. Barbara Woodside</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <ul><li>Contact: barbara.woodside@carleton.ca</li></ul>
-        </div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- PhD Student – Brenna MacAulay -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#BrennaModal">
-      <div class="card">
-        <img class="card-img-top" src="Brenna.jpg" alt="Brenna MacAulay" />
-        <div class="card-body">
-          <h5 class="card-title">Brenna MacAulay</h5>
-          <p class="card-text">PhD Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="BrennaModal" tabindex="-1" aria-labelledby="BrennaLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="BrennaLabel">Brenna MacAulay</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <br>Research Interest/Focus<br><br>
-          I am currently studying the endocrine system during stress within the context of sex differences. There is a breadth of research on stress in neuroscience, but the majority of these studies were both designed for, and are only truly applicable to, males. It has been proven that there is an increased prevalence of stress-related disorders in females compared to males, so research into the differential effects of stress in males and females is extremely important.
-          <br><br>Outside of the Lab<br><br>
-          Outside of the lab, I spend most of my time taking my dog on adventures, practicing aerial silks, hiking, and spending time with my partner, friends, and family.
-        </div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- PhD Student – Zachary Silver -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#ZacharyModal">
-      <div class="card">
-        <img class="card-img-top" src="Zack.jpg" alt="Zachary Silver" />
-        <div class="card-body">
-          <h5 class="card-title">Zachary Silver</h5>
-          <p class="card-text">PhD Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="ZacharyModal" tabindex="-1" aria-labelledby="ZacharyLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="ZacharyLabel">Zachary Silver</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <br>Research Interest/Focus<br><br>
-          My research focuses on the interaction between ghrelin and a specialized glial cell type called tanycytes. In the hypothalamus, tanycytes can be found at the ventral aspect of the third ventricle, right next to the median eminence. Here, they regulate the access of bloodborne substances to the cerebrospinal fluid (CSF) through the formation of the blood-CSF barrier, and also regulate the activity of nearby hypothalamic circuits through direct interaction with neighbouring neurons. Through these means, tanycytes have been implicated in the control of energy balance. My research is specifically examining the role of tanycytes in the transportation of ghrelin to its hypothalamic targets, and how they may mediate the orexigenic effect of ghrelin.
-          <br><br>Outside of the Lab<br><br>
-          When I am not in the lab, I enjoy running, lifting weights, reading comic books, watching sports, and spending time with friends.
-        </div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- MSc Student – James Brinkhurs -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#JamesModal">
-      <div class="card">
-        <img class="card-img-top" src="James.jpg" alt="James Brinkhurs" />
-        <div class="card-body">
-          <h5 class="card-title">James Brinkhurs</h5>
-          <p class="card-text">MSc Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="JamesModal" tabindex="-1" aria-labelledby="JamesLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="JamesLabel">James Brinkhurs</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body"><!-- Optional: details later --></div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- MSc Student – Lauren Watt -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#LaurenModal">
-      <div class="card">
-        <img class="card-img-top" src="Lauren.jpg" alt="Lauren Watt" />
-        <div class="card-body">
-          <h5 class="card-title">Lauren Watt</h5>
-          <p class="card-text">MSc Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="LaurenModal" tabindex="-1" aria-labelledby="LaurenLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="LaurenLabel">Lauren Watt</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <br>Research Interest/Focus<br><br>
-          For my honours thesis, I investigated the relative expression levels of ghrelin and glucocorticoid receptors in the hippocampus of male and female mice following chronic non-discriminatory social defeat (CNDSD). Currently, as a volunteer, I am exploring the effects of CNDSD on nutrient-sensing related receptors by analyzing gene expression levels in stomach and liver tissues using qPCR.
-          <br><br>Outside of the Lab<br><br>
-          I like to take care of my house plants and listen to music. I also love staying active, whether that's running in the warm weather or cross-country skiing in the winter.
-        </div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- MSc Student – Mina Kang -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#MinaModal">
-      <div class="card">
-        <img class="card-img-top" src="Mina.jpg" alt="Mina Kang" />
-        <div class="card-body">
-          <h5 class="card-title">Mina Kang</h5>
-          <p class="card-text">MSc Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="MinaModal" tabindex="-1" aria-labelledby="MinaLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="MinaLabel">Mina Kang</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body"><!-- Optional: details later --></div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- Undergraduate Student – Daria Sapina -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#DariaModal">
-      <div class="card">
-        <img class="card-img-top" src="Darlia.jpg" alt="Daria Sapina" />
-        <div class="card-body">
-          <h5 class="card-title">Daria Sapina</h5>
-          <p class="card-text">Undergraduate Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="DariaModal" tabindex="-1" aria-labelledby="DariaLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="DariaLabel">Daria Sapina</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body"><!-- Optional: details later --></div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- Undergraduate Student – Tala Haweeleh (no photo provided) -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#TalaModal">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Tala Haweeleh</h5>
-          <p class="card-text">Undergraduate Student</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="TalaModal" tabindex="-1" aria-labelledby="TalaLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="TalaLabel">Tala Haweeleh</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body"><!-- Optional: details later --></div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-  <!-- Mascot – Roxy -->
-  <div class="col-sm-6 col-lg-4 mb-4">
-    <a data-bs-toggle="modal" data-bs-target="#RoxyModal">
-      <div class="card">
-        <img class="card-img-top" src="Roxy.jpg" alt="Roxy (Mascot)" />
-        <div class="card-body">
-          <h5 class="card-title">Roxy</h5>
-          <p class="card-text">Mascot</p>
-        </div>
-      </div>
-    </a>
-    <div class="modal fade" id="RoxyModal" tabindex="-1" aria-labelledby="RoxyLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="RoxyLabel">Roxy</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body"><!-- Optional: details later --></div>
-        <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
-      </div></div>
-    </div>
-  </div>
-
-</div>
-
-
-  
-
-        <div class="modal fade" id="AlumniModal" tabindex="-1" aria-labelledby="AlumniModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="AlumniModalLabel">Abizaid Lab Alumni</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                Andrea Smith, PhD (2024)<br>
-                Kejah Bascon, MSc (2024)<br>
-                Andre Telfer, MSc (2023)<br>
-                Kiara Ayoub, MSc (2023)<br>
-                Aditi Sanke, MSc (2023)<br>
-                Eliza Ali, PhD (2022)<br>
-                Ahmad Alftieh, MSc (2021)<br>
-                Stephanie DeSante, MSc (2021)<br>
-                Alexander Edwards, PhD (2020)<br>
-                Samantha King, PhD (2018)<br>
-                Lyndsay Hyland, MSc (2017)<br>
-                Rim Khazall, PhD (2017)<br>
-                Su-Bin Park, MSc (2017)<br>
-                Martin Wellman, PhD (2016)<br>
-                Harry MacKay, PhD (2015)<br>
-                Catherine Nesbitt, PhD (2015)<br>
-                Stephanie Rosenbaum, MSc (2014)<br>
-                Farah Sabrin, MSc (2014)<br>
-                Veronique St-Onge, PhD (2014)<br>
-                Tamara Parno, MSc (2013)<br>
-                Zachary Patterson, PhD (2013)<br>
-                Trevor Rodrigues, MSc (2013)<br>
-                Valerie Charbonneau, MSc (2012)<br>
-                Elaine Waddington-Lamont, Postdoctoral Fellow (2012)<br>
-                Ian Bloom, MSc (2010)<br>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              </div>
+      <!-- Principal Investigator -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#AlfonsoModal">
+          <div class="card">
+            <img class="card-img-top" src="Alfonso.jpg" alt="Dr. Alfonso Abizaid" />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Alfonso Abizaid</h5>
+              <p class="card-text">Principal Investigator</p>
             </div>
+          </div>
+        </a>
+        <div class="modal fade" id="AlfonsoModal" tabindex="-1" aria-labelledby="AlfonsoLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="AlfonsoLabel">Dr. Alfonso Abizaid</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>Professor, Carleton University</li>
+                <li>Postdoctoral Fellow, Yale University School of Medicine (2002–2006)</li>
+                <li>PhD in Psychology/Behavioural Neuroscience, Concordia University (2002)</li>
+                <li>MA in Psychology, Concordia University (1996)</li>
+                <li>BA in Psychology, Concordia University (1992)</li>
+                <li>Contact: alfonso_abizaid@carleton.ca</li>
+              </ul>
+              <br>Research Interest/Focus<br><br>
+              I am interested in the brain processes that integrate information from the environment to regulate feeding and energy balance.
+              <br><br>Outside of the Lab<br><br>
+              When I am not in the lab, you will find me spending time with my wife and kids, exploring nature with my dog, playing soccer, and enjoying my involvement in the Society for Neuroscience - Ottawa Chapter.
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- Adjunct Professor -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#BarbaraModal">
+          <div class="card">
+            <img class="card-img-top" src="Barbara.jpg" alt="Dr. Barbara Woodside" />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Barbara Woodside</h5>
+              <p class="card-text">Adjunct Professor</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="BarbaraModal" tabindex="-1" aria-labelledby="BarbaraLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BarbaraLabel">Dr. Barbara Woodside</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <ul><li>Contact: barbara.woodside@carleton.ca</li></ul>
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- PhD Student – Brenna MacAulay -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#BrennaModal">
+          <div class="card">
+            <img class="card-img-top" src="Brenna.jpg" alt="Brenna MacAulay" />
+            <div class="card-body">
+              <h5 class="card-title">Brenna MacAulay</h5>
+              <p class="card-text">PhD Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="BrennaModal" tabindex="-1" aria-labelledby="BrennaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="BrennaLabel">Brenna MacAulay</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <br>Research Interest/Focus<br><br>
+              I am currently studying the endocrine system during stress within the context of sex differences. There is a breadth of research on stress in neuroscience, but the majority of these studies were both designed for, and are only truly applicable to, males. It has been proven that there is an increased prevalence of stress-related disorders in females compared to males, so research into the differential effects of stress in males and females is extremely important.
+              <br><br>Outside of the Lab<br><br>
+              Outside of the lab, I spend most of my time taking my dog on adventures, practicing aerial silks, hiking, and spending time with my partner, friends, and family.
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- PhD Student – Zachary Silver -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#ZacharyModal">
+          <div class="card">
+            <img class="card-img-top" src="Zack.jpg" alt="Zachary Silver" />
+            <div class="card-body">
+              <h5 class="card-title">Zachary Silver</h5>
+              <p class="card-text">PhD Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="ZacharyModal" tabindex="-1" aria-labelledby="ZacharyLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="ZacharyLabel">Zachary Silver</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <br>Research Interest/Focus<br><br>
+              My research focuses on the interaction between ghrelin and a specialized glial cell type called tanycytes. In the hypothalamus, tanycytes can be found at the ventral aspect of the third ventricle, right next to the median eminence. Here, they regulate the access of bloodborne substances to the cerebrospinal fluid (CSF) through the formation of the blood-CSF barrier, and also regulate the activity of nearby hypothalamic circuits through direct interaction with neighbouring neurons. Through these means, tanycytes have been implicated in the control of energy balance. My research is specifically examining the role of tanycytes in the transportation of ghrelin to its hypothalamic targets, and how they may mediate the orexigenic effect of ghrelin.
+              <br><br>Outside of the Lab<br><br>
+              When I am not in the lab, I enjoy running, lifting weights, reading comic books, watching sports, and spending time with friends.
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- MSc Student – James Brinkhurs -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#JamesModal">
+          <div class="card">
+            <img class="card-img-top" src="James.jpg" alt="James Brinkhurs" />
+            <div class="card-body">
+              <h5 class="card-title">James Brinkhurs</h5>
+              <p class="card-text">MSc Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="JamesModal" tabindex="-1" aria-labelledby="JamesLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="JamesLabel">James Brinkhurs</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><!-- Optional: details later --></div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- MSc Student – Lauren Watt -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#LaurenModal">
+          <div class="card">
+            <img class="card-img-top" src="Lauren.jpg" alt="Lauren Watt" />
+            <div class="card-body">
+              <h5 class="card-title">Lauren Watt</h5>
+              <p class="card-text">MSc Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="LaurenModal" tabindex="-1" aria-labelledby="LaurenLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="LaurenLabel">Lauren Watt</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <br>Research Interest/Focus<br><br>
+              For my honours thesis, I investigated the relative expression levels of ghrelin and glucocorticoid receptors in the hippocampus of male and female mice following chronic non-discriminatory social defeat (CNDSD). Currently, as a volunteer, I am exploring the effects of CNDSD on nutrient-sensing related receptors by analyzing gene expression levels in stomach and liver tissues using qPCR.
+              <br><br>Outside of the Lab<br><br>
+              I like to take care of my house plants and listen to music. I also love staying active, whether that's running in the warm weather or cross-country skiing in the winter.
+            </div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- MSc Student – Mina Kang -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#MinaModal">
+          <div class="card">
+            <img class="card-img-top" src="Mina.jpg" alt="Mina Kang" />
+            <div class="card-body">
+              <h5 class="card-title">Mina Kang</h5>
+              <p class="card-text">MSc Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="MinaModal" tabindex="-1" aria-labelledby="MinaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="MinaLabel">Mina Kang</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><!-- Optional: details later --></div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- Undergraduate Student – Daria Sapina -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#DariaModal">
+          <div class="card">
+            <img class="card-img-top" src="Darlia.jpg" alt="Daria Sapina" />
+            <div class="card-body">
+              <h5 class="card-title">Daria Sapina</h5>
+              <p class="card-text">Undergraduate Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="DariaModal" tabindex="-1" aria-labelledby="DariaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="DariaLabel">Daria Sapina</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><!-- Optional: details later --></div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- Undergraduate Student – Tala Haweeleh (no photo provided) -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#TalaModal">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tala Haweeleh</h5>
+              <p class="card-text">Undergraduate Student</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="TalaModal" tabindex="-1" aria-labelledby="TalaLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="TalaLabel">Tala Haweeleh</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><!-- Optional: details later --></div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- Mascot – Roxy -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#RoxyModal">
+          <div class="card">
+            <img class="card-img-top" src="Roxy.jpg" alt="Roxy (Mascot)" />
+            <div class="card-body">
+              <h5 class="card-title">Roxy</h5>
+              <p class="card-text">Mascot</p>
+            </div>
+          </div>
+        </a>
+        <div class="modal fade" id="RoxyModal" tabindex="-1" aria-labelledby="RoxyLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered"><div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="RoxyLabel">Roxy</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body"><!-- Optional: details later --></div>
+            <div class="modal-footer"><button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button></div>
+          </div></div>
+        </div>
+      </div>
+
+      <!-- Alumni trigger card (restored) -->
+      <div class="col-sm-6 col-lg-4 mb-4">
+        <a data-bs-toggle="modal" data-bs-target="#AlumniModal">
+          <div class="card">
+            <img class="card-img-top" src="Alumni (Cropped).jpg" alt="Alumni" />
+            <div class="card-body">
+              <h5 class="card-title">Alumni</h5>
+              <p class="card-text">Former Graduate Students</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Alumni modal -->
+    <div class="modal fade" id="AlumniModal" tabindex="-1" aria-labelledby="AlumniModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="AlumniModalLabel">Abizaid Lab Alumni</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Andrea Smith, PhD (2024)<br>
+            Kejah Bascon, MSc (2024)<br>
+            Andre Telfer, MSc (2023)<br>
+            Kiara Ayoub, MSc (2023)<br>
+            Aditi Sanke, MSc (2023)<br>
+            Eliza Ali, PhD (2022)<br>
+            Ahmad Alftieh, MSc (2021)<br>
+            Stephanie DeSante, MSc (2021)<br>
+            Alexander Edwards, PhD (2020)<br>
+            Samantha King, PhD (2018)<br>
+            Lyndsay Hyland, MSc (2017)<br>
+            Rim Khazall, PhD (2017)<br>
+            Su-Bin Park, MSc (2017)<br>
+            Martin Wellman, PhD (2016)<br>
+            Harry MacKay, PhD (2015)<br>
+            Catherine Nesbitt, PhD (2015)<br>
+            Stephanie Rosenbaum, MSc (2014)<br>
+            Farah Sabrin, MSc (2014)<br>
+            Veronique St-Onge, PhD (2014)<br>
+            Tamara Parno, MSc (2013)<br>
+            Zachary Patterson, PhD (2013)<br>
+            Trevor Rodrigues, MSc (2013)<br>
+            Valerie Charbonneau, MSc (2012)<br>
+            Elaine Waddington-Lamont, Postdoctoral Fellow (2012)<br>
+            Ian Bloom, MSc (2010)<br>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      
-
-      <!-- this extra closing div tag is a hack to get the next section to not be all left justified-->
     </div>
 
     <hr class="my-2" />
@@ -560,13 +565,13 @@
 
 </div>
 
-<center><img src="Group2024 (Medium).jpeg" width="360" height="270"></center>
+<center><img src="Group2024 (Medium).jpeg" width="360" height="270" alt="Abizaid Lab group photo 2024"></center>
 
   <hr class="my-5">
 
   <footer>
     <center>
-      <img src="carleton-logo.jpg" width="20%" height="20%">
+      <img src="carleton-logo.jpg" width="20%" height="20%" alt="Carleton University logo">
       <br><br><br>
       <small> Copyright &copy; 2024, The Abizaid Lab</small>
     </center>
@@ -579,3 +584,4 @@
 </body>
 
 </html>
+
